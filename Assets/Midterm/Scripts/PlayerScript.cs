@@ -52,6 +52,8 @@ public class PlayerScript : MonoBehaviour
 
         //Finally, I take that variable and I feed it to the component in charge of movement
         RB.linearVelocity = new Vector2(vel.x, RB.linearVelocity.y);
+
+
     }
 
     //This gets called whenever you bump into another object, like a wall or coin.
@@ -84,7 +86,11 @@ public class PlayerScript : MonoBehaviour
     public void UpdateScore()
     {
         ScoreText.text = "Score: " + Score;
+
     }
+
+
+    
 
     //If this function is called, the player character dies. The player character is destroyed.
     public void Die()
