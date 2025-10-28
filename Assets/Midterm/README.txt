@@ -1,3 +1,2 @@
-For the code in this folder you are free to modify and edit
-
-Check the drive for detailed midterm instructions
+Use the Left and Right arrow keys to move 
+Press Space to Reverse Graivty
