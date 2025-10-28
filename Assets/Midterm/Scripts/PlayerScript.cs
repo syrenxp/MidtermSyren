@@ -49,10 +49,9 @@ public class PlayerScript : MonoBehaviour
         {
             vel.x = -Speed;
         }
-       
 
         //Finally, I take that variable and I feed it to the component in charge of movement
-        //RB.linearVelocity = vel;
+        RB.linearVelocity = new Vector2(vel.x, RB.linearVelocity.y);
     }
 
     //This gets called whenever you bump into another object, like a wall or coin.
