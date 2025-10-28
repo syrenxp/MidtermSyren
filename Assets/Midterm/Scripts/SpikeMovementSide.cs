@@ -15,7 +15,7 @@ public class SpikeMovementSide : MonoBehaviour
         if (up) transform.position += new Vector3(0.002f, 0, 0);
         else transform.position -= new Vector3(0.002f, 0, 0);
 
-        if (transform.position.y > startX + 0.9f) up = false;
-        if (transform.position.y < startX - 0.08f) up = true;
+        if (transform.position.x > startX + 2f) up = false;
+        if (transform.position.x < startX - 2f) up = true;
     }
 }
