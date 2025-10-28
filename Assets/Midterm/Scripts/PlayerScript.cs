@@ -35,7 +35,7 @@ public class PlayerScript : MonoBehaviour
     {
         //The code below controls the character's movement
         //First we make a variable that we'll use to record how we want to move
-        Vector2 vel = new Vector2(0,0);
+        Vector2 vel = new Vector2(0,1);
         
         //Then we use if statement to figure out what that variable should look like
         
@@ -52,7 +52,7 @@ public class PlayerScript : MonoBehaviour
        
 
         //Finally, I take that variable and I feed it to the component in charge of movement
-        RB.linearVelocity = vel;
+        //RB.linearVelocity = vel;
     }
 
     //This gets called whenever you bump into another object, like a wall or coin.
