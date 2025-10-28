@@ -35,7 +35,7 @@ public class PlayerScript : MonoBehaviour
     {
         //The code below controls the character's movement
         //First we make a variable that we'll use to record how we want to move
-        Vector2 vel = new Vector2(0,1);
+        Vector2 vel = new Vector2(0,0);
         
         //Then we use if statement to figure out what that variable should look like
         
